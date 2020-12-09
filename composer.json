@@ -1,19 +1,24 @@
 {
-    "name": "suncalendar/solar-calendar",
-    "description": "Converter for solar calendar and gregorian calendar.",
-    "type": "metapackage",
-    "license": "mit",
+    "name": "solarcalendar/solar",
+    "description": "Convert Gregorian calendar to Solor calendar.",
+    "type": "library",
+    "keywords": [
+        "solar",
+        "calendar",
+        "gregorian",
+        "khorshidi"
+    ],
+    "homepage": "https://soleimaniyun.com/",
+    "license": "MIT",
     "authors": [
         {
             "name": "Soleimaniyun",
-            "email": "soleimaniyun@outlook.com",
-            "homepage": "https://soleimaniyun.com"
+            "email": "Soleimaniyun@outlook.com",
+            "homepage": "https://github.com/soleimaniyun"
         }
     ],
     "minimum-stability": "dev",
-    "require": { 
-        "php": ">=5.3.0"
-    },
+    "require": {},
     "autoload": {
             "psr-4": {
                 "vendor\\solarclendar\\": "src/"
@@ -24,5 +29,4 @@
             "vendor\\solarclendar\\": "src/"
         }
     }
-
 }
